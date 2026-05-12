@@ -29,8 +29,16 @@
 
 ```bash
 VITE_API_BASE_URL=https://mikijapan-api-production-7e32.up.railway.app/api
-VITE_LIFF_ID=<menusync-liff-id>
+VITE_LIFF_ID=2010003223-xx1eBlo2
 ```
+
+## LINE Setup
+
+- MenuSync LIFF URL: `https://liff.line.me/2010003223-xx1eBlo2`
+- MenuSync Endpoint URL: `https://miki-japan-menu-sync.vercel.app`
+- MenuSync Rich Menu ID: `richmenu-9fdefbd53a8c1e7ac9cf8d6b1e9079bb`
+
+ตั้ง action ของ Rich Menu ตัวนี้ให้เปิด MenuSync LIFF URL ด้านบน เมื่อลูกค้ากดเข้าไป ระบบจะเรียก API เพื่อเปลี่ยน Rich Menu กลับไปเป็นเมนูจริงตามสถานะในฐานข้อมูล เช่น Register, Verify, Member หรือ Rejected
 
 ## Run
 
